@@ -115,7 +115,6 @@ console.log("Het gemiddelde van AverageGrade(" + [6, 4, 5] + ") geeft " + averag
 console.log("Het gemiddelde van AveragGrade(" + [8,9,4,6,10] + ") geeft " + averageGrade2([8, 9, 4, 6, 10]));
 
 
-
 // ---- Verwachte uitkomsten:
 // averageGrade(grades) geeft 6.642857142857143
 // averageGrade([6, 4, 5]) geeft xxxx
@@ -131,7 +130,6 @@ console.log("Het gemiddelde van AveragGrade(" + [8,9,4,6,10] + ") geeft " + aver
 console.log("Gemiddelde eindcijfer afgerond op 2 decimalen van " + grades + " is: " + Math.round(averageGrade2(grades)*100)/100);
 console.log("Gemiddelde eindcijfer afgerond op 2 decimalen van " + [6, 4, 5] + " is: " + Math.round(averageGrade2([6, 4, 5])*100)/100);
 console.log("Gemiddelde eindcijfer afgerond op 2 decimalen van " + [8,9,4,6,10] + " is: " + Math.round( averageGrade2([8,9,4,6,10])*100)/100);
-
 
 /* Bonusopdracht: hoogste cijfer */
 
@@ -185,7 +183,6 @@ function highestGrade2 (grade) {
 console.log("Het hoogste cijfer voor " + grades + " in opgave 3b is: " + highestGrade2(grades));
 console.log("Het hoogste cijfer voor " + [6, 4, 5] + " in opgave 3b is: " + highestGrade2([6, 4, 5]));
 console.log("Het hoogste cijfer voor " + [8, 9, 4, 6, 10] + " in opgave 3b is: " + highestGrade2([8, 9, 4, 6, 10]));
-
 
 // ---- Verwachte uitkomsten:
 // highestGrade(grades) geeft 9

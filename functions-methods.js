@@ -13,7 +13,7 @@ function onlyEmailDomain (email) {
     return email.substring(email.indexOf("@") + 1)
 }
 console.log(onlyEmailDomain("toodeludoki@gmail.com"));
-console.log(onlyEmailDomain("toodeludoki@ammahoela.com"));
+console.log(onlyEmailDomain("toodeludoki@amahoela.com"));
 
 
 
@@ -55,9 +55,9 @@ console.log(typeOfEmail("Novi.amahoela@education.nl"));
 // checkEmailValidity("n.eeken@novinl.") geeft false - want de punt mag niet als laatst
 // checkEmailValidity("tessmellink@novi,nl") geeft false - want er staat een komma in
 
+
 function checkEmailValidity (email) {
     let isEmailValid = false;
-
 
     if (email.includes(",") || (email.charAt(email.length-1) == ".") || (email.includes("@") !== true)) {
 

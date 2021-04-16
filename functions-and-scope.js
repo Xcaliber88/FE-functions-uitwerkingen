@@ -184,7 +184,6 @@ console.log("Het hoogste cijfer voor " + grades + " in opgave 3b is: " + highest
 console.log("Het hoogste cijfer voor " + [6, 4, 5] + " in opgave 3b is: " + highestGrade2([6, 4, 5]));
 console.log("Het hoogste cijfer voor " + [8, 9, 4, 6, 10] + " in opgave 3b is: " + highestGrade2([8, 9, 4, 6, 10]));
 
-
 // ---- Verwachte uitkomsten:
 // highestGrade(grades) geeft 9
 // highestGrade([6, 4, 5]) geeft 6

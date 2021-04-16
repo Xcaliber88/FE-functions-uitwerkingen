@@ -55,6 +55,7 @@ console.log(typeOfEmail("Novi.amahoela@education.nl"));
 // checkEmailValidity("n.eeken@novinl.") geeft false - want de punt mag niet als laatst
 // checkEmailValidity("tessmellink@novi,nl") geeft false - want er staat een komma in
 
+
 function checkEmailValidity (email) {
     let isEmailValid = false;
 

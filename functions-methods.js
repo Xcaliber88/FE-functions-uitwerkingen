@@ -13,7 +13,7 @@ function onlyEmailDomain (email) {
     return email.substring(email.indexOf("@") + 1)
 }
 console.log(onlyEmailDomain("toodeludoki@gmail.com"));
-console.log(onlyEmailDomain("toodeludoki@ammahoela.com"));
+console.log(onlyEmailDomain("toodeludoki@amahoela.com"));
 
 
 

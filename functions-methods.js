@@ -58,7 +58,6 @@ console.log(typeOfEmail("Novi.amahoela@education.nl"));
 function checkEmailValidity (email) {
     let isEmailValid = false;
 
-
     if (email.includes(",") || (email.charAt(email.length-1) == ".") || (email.includes("@") !== true)) {
 
         return isEmailValid = "email address: " + email + " is: " + false
